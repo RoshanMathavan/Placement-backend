@@ -1,5 +1,5 @@
 const express = require('express');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const Recruiter = require('../models/RecruiterModel'); // Adjust the path as necessary
 const StudentDetails = require('../models/StudentDetails'); // Ensure this is imported for recruiter details
 const router = express.Router();

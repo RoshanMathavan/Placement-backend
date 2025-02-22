@@ -1,5 +1,5 @@
 const express = require('express');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const Student = require('../models/studentModel'); // Adjust the path as necessary
 const router = express.Router();
 const StudentDetails = require('../models/StudentDetails'); // Adjust path as necessary

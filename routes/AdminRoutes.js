@@ -1,5 +1,5 @@
 const express = require('express');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const Admin = require('../models/AdminModel'); // Adjust the path as necessary
 const router = express.Router();
 
