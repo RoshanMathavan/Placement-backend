@@ -7,7 +7,7 @@ const dotenv = require('dotenv');
 const StudentDetails = require('./models/StudentDetails'); // Adjust the path if necessary
 const recruiterRoutes = require('./routes/RecruiterRoutes'); // Import student routes
 const Recruiter = require('./models/RecruiterModel'); // Ensure this is correct
-const bcrypt = require('bcrypt'); // Make sure this is here
+const bcrypt = require('bcryptjs'); // Make sure this is here
 const adminRoutes = require('./routes/AdminRoutes'); // Adjust path as necessary
 const Admin = require('./models/AdminModel'); // Adjust the path if necessary
 
